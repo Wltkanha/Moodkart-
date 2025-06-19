@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MoodKart – Shop What You Feel</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #121212; color: white; text-align: center; margin: 0; padding: 0; }
+    .container { max-width: 600px; margin: auto; padding: 40px 20px; }
+    .logo { width: 120px; margin-bottom: 20px; }
+    h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    p { font-size: 1.2rem; margin-bottom: 30px; }
+    .mood-box { background-color: #292929; border-radius: 16px; padding: 20px; margin: 10px 0; }
+    .mood-title { font-size: 1.4rem; margin-bottom: 10px; color: #ffcc00; }
+    .email-box { margin-top: 30px; }
+    input[type=\"email\"] { padding: 10px; border-radius: 8px; border: none; width: 70%; }
+    button { padding: 10px 20px; border-radius: 8px; background-color: #ffcc00; border: none; margin-left: 10px; font-weight: bold; cursor: pointer; }
+    .footer { margin-top: 40px; font-size: 0.9rem; color: #999; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.ibb.co/6wP7gHD/moodkart-logo.png" alt="MoodKart Logo" class="logo" />
+    <h1>MoodKart</h1>
+    <p>India's First Mood-Based Shopping Experience</p>
+
+    <div class="mood-box">
+      <div class="mood-title">😢 Feeling Sad?</div>
+      <div>Try our Breakup Box – ice cream, tissues, and a healing playlist.</div>
+    </div>
+
+    <div class="mood-box">
+      <div class="mood-title">😃 Feeling Happy?</div>
+      <div>Celebrate with our Party Kit – cake, balloons, decorations.</div>
+    </div>
+
+    <div class="mood-box">
+      <div class="mood-title">😴 Feeling Bored?</div>
+      <div>Get our Fun Box – games, snacks, movie list.</div>
+    </div>
+
+    <div class="mood-box">
+      <div class="mood-title">😍 Feeling Romantic?</div>
+      <div>Send love with our Romance Kit – candle, gifts, perfume.</div>
+    </div>
+
+    <div class="email-box">
+      <p><strong>Join Beta Access:</strong></p>
+      <input type="email" placeholder="Your email address" />
+      <button>Notify Me</button>
+    </div>
+
+    <div class="footer">
+      © 2025 MoodKart • Founded by Kanha Sahu
+    </div>
+  </div>
+</body>
+</html>
